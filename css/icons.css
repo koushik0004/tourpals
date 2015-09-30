@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Hilti icon font";
+    src:url('../fonts/hilti-icon-font.eot');
+    src:url('../fonts/hilti-icon-font.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hilti-icon-font.woff') format('woff'),
+        url('../fonts/hilti-icon-font.ttf') format('truetype'),
+        url('../fonts/hilti-icon-font.svg#untitled-font-2') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: "Hilti icon font";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-hilti-account-icon:before { content: "a"; }
+.icon-hilti-add-to-cart-icon:before { content: "D"; }
+.icon-hilti-add-to-list-icon:before { content: "h"; }
+.icon-hilti-arrow-down-full-icon:before { content: "b"; }
+.icon-hilti-arrow-down-icon:before { content: "v"; }
+.icon-hilti-arrow-left-full-icon:before { content: "w"; }
+.icon-hilti-arrow-left-icon:before { content: "x"; }
+.icon-hilti-arrow-right-full-icon:before { content: "y"; }
+.icon-hilti-arrow-right-icon:before { content: "z"; }
+.icon-hilti-arrow-up-full-icon:before { content: "A"; }
+.icon-hilti-arrow-up-icon:before { content: "B"; }
+.icon-hilti-available-icon:before { content: "C"; }
+.icon-hilti-cart-icon:before { content: "i"; }
+.icon-hilti-chat-icon:before { content: "E"; }
+.icon-hilti-checkmark-icon:before { content: "F"; }
+.icon-hilti-close-icon:before { content: "o"; }
+.icon-hilti-company-icon:before { content: "p"; }
+.icon-hilti-contact-icon:before { content: "q"; }
+.icon-hilti-download-icon:before { content: "r"; }
+.icon-hilti-fax-icon:before { content: "c"; }
+.icon-hilti-history-icon:before { content: "s"; }
+.icon-hilti-info-icon:before { content: "u"; }
+.icon-hilti-list-icon:before { content: "t"; }
+.icon-hilti-logged-in-icon:before { content: "L"; }
+.icon-hilti-login-icon:before { content: "K"; }
+.icon-hilti-logout-icon:before { content: "J"; }
+.icon-hilti-mail-icon:before { content: "e"; }
+.icon-hilti-navi-icon:before { content: "I"; }
+.icon-hilti-phone-icon:before { content: "d"; }
+.icon-hilti-pin-icon:before { content: "H"; }
+.icon-hilti-print-icon:before { content: "f"; }
+.icon-hilti-products-icon:before { content: "G"; }
+.icon-hilti-quick-order-icon:before { content: "n"; }
+.icon-hilti-repair-icon:before { content: "m"; }
+.icon-hilti-search-icon:before { content: "l"; }
+.icon-hilti-sort-icon:before { content: "g"; }
+.icon-hilti-tracking-icon:before { content: "k"; }
+.icon-hilti-video-icon:before { content: "j"; }

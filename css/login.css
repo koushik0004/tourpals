@@ -1,0 +1,282 @@
+/* Space out content a bit */
+@font-face {
+    font-family: "Hilti Headline";
+    src: url("fonts/HiltiSmallHeavyExtended.eot?#iefix") format("embedded-opentype"), url("fonts/HiltiSmallHeavyExtended.woff") format("woff"), url("fonts/HiltiSmallHeavyExtended.ttf") format("truetype"), url("fonts/HiltiSmall-HeavyExtended.svg#Hilti-HeavyExtended") format("svg");
+}
+@font-face {
+    font-family: "Hilti Small Roman";
+    font-weight: 400;
+    src: url("fonts/HiltiSmallRoman.eot?#iefix") format("embedded-opentype"), url("fonts/HiltiSmallRoman.woff") format("woff"), url("fonts/HiltiSmallRoman.ttf") format("truetype"), url("fonts/HiltiSmall-Roman.svg#Hilti-Roman") format("svg");
+}
+@font-face {
+    font-family: "Hilti Roman";
+    font-weight: 700;
+    src: url("fonts/HiltiSmallBold.eot?#iefix") format("embedded-opentype"), url("fonts/HiltiSmallBold.woff") format("woff"), url("fonts/HiltiSmallBold.ttf") format("truetype"), url("fonts/HiltiSmall-Bold.svg#Hilti-Bold") format("svg");
+}
+@font-face {
+    font-family: "Hilti Ext";
+    src: url("fonts/HiltiSmallExtended.eot?#iefix") format("embedded-opentype"), url("fonts/HiltiSmallExtended.woff") format("woff"), url("fonts/HiltiSmallExtended.ttf") format("truetype"), url("fonts/HiltiSmall-Extended.svg#Hilti-Extended") format("svg");
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+input.hilti-input{
+	-webkit-border-radius:0px;
+	-moz-border-radius: 0px;
+	-ms-border-radius: 0px;
+	border-radius: 0px;
+	height: 42px;
+	font-family: Hilti Small Roman;
+  	font-size: 16px;
+  	color: #333;
+}
+.hilti-input::-webkit-input-placeholder {
+  color: #d5d5d5;
+  font-family: Hilti Small Roman;
+  font-size: 16px;
+}
+.hilti-input::-moz-placeholder { /* Firefox 19+ */
+  color: #d5d5d5;
+  font-family: Hilti Small Roman;
+  font-size: 16px;
+}
+.hilti-input:-ms-placeholder {
+  color: #d5d5d5;
+  font-family: Hilti Small Roman;
+  font-size: 16px;
+}
+.hilti-input:-moz-placeholder { /* Firefox 18- */
+  color: #d5d5d5;
+  font-family: Hilti Small Roman;
+  font-size: 16px;
+}
+.vertical-space{
+	height:20px;
+}
+a.hilti-link{
+	text-decoration: underline;
+	color: #636363;
+	font-family: Hilti Small Roman;
+	font-size: 13px;
+} 
+a.hilti-link:hover{
+	text-decoration: none;
+	color: #333;
+}
+.fix-width-form{
+	width: 338px;
+	margin: 0 auto;
+}
+form.fix-width-form label{
+	color: rgba(51, 51, 51, 1);
+	font-family: Hilti Small Roman;
+	font-size: 16px;
+	font-weight: normal;
+	display: inline;
+}
+.btn-hilti-red {
+    background: rgb( 223, 0, 27);
+    color: #fff;
+    -webkit-border-radius:0px;
+	-moz-border-radius: 0px;
+	-ms-border-radius: 0px;
+	border-radius: 0px;
+	height: 44px;
+	font-family: Hilti Small Roman;
+	font-size: 21px;
+}
+.btn-hilti-blank {
+    background: rgb( 255, 255, 255);
+    color: rgb( 223, 0, 27);
+    border: 1px solid rgb( 223, 0, 27);
+    -webkit-border-radius:0px;
+	-moz-border-radius: 0px;
+	-ms-border-radius: 0px;
+	border-radius: 0px;
+	height: 44px;
+	font-family: Hilti Small Roman;
+	font-size: 21px;
+}
+ 
+.btn-hilti-red:hover, .btn-hilti-red:focus, .btn-hilti-red:active, .btn-hilti-red.active, .open > .dropdown-toggle.btn-hilti-red {
+    background: rgba(169, 3, 41, 0.8);
+    color:#eee;
+}
+.btn-hilti-blank:hover, .btn-hilti-blank:focus, .btn-hilti-blank:active, .btn-hilti-blank.active, .open > .dropdown-toggle.btn-hilti-blank {
+    background: rgba(213, 213, 213, 0.8);
+    /*color: rgb( 223, 0, 27);*/
+}
+ 
+.btn-hilti:active, .btn-hilti.active {
+    background: rgba(0,0,0, 0.95);
+    box-shadow: none;
+}
+
+/*for checkbox with font-awesome*/
+input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+div.checkbox label{
+	padding-left:0px; 
+	font-family: Hilti Small Roman;
+	font-size: 13px;
+}
+div.checkbox  span:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 15px;
+}
+
+div.checkbox  input[type=checkbox] + span:before{ content: "\f096"; letter-spacing: 10px;} /* unchecked icon */
+
+div.checkbox input[type=checkbox]:checked + span:before { content: "\f046";letter-spacing: 10px;  } /* checked icon */
+/*for checkbox with font-awesome*/
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.container .jumbotron{
+	background-color: rgba(255,255,255, 1);
+	border-bottom: none;
+}
+.container-fluid.full-width{
+	padding: 0px;
+}
+/* Custom page header */
+.header {
+  /*padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;*/
+  background: rgba(223, 0, 27, 1);
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3,  .header h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 186px;
+  color:rgba(255,255,255,1);
+}
+.header h1 img{
+  margin: 10px 0;
+  
+}
+.hilti-landing-header{
+	height: 142px;
+}
+.header-right-section{
+	background-color: #000;
+	height: 100%;
+}
+.col-height.col-top{
+	margin: 0px;
+	padding: 0px;
+}
+.operation-box{
+	width: 40%;
+	margin:0 auto;
+}
+
+.design-triangle{
+	border-bottom: 25px solid rgba(255,255,255,1);
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    bottom: 25px;
+    content: " ";
+    height: 0;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 0;
+}
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #000;
+  border-top: 1px solid #e5e5e5;
+  font-family: Hilti Small Roman;
+  font-size: 14px;
+}
+.footer p{
+	padding: 0 10px;
+}
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  /*text-align: center;*/
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  /*padding: 14px 24px;
+  font-size: 21px;*/
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+	  /* Remove the padding we set earlier */
+	  .header,
+	  .marketing,
+	  .footer {
+	    padding-right: 0;
+	    padding-left: 0;
+	  }
+	  /* Space out the masthead */
+	  .header {
+	    margin-bottom: 0px;
+	  }
+	  /* Remove the bottom border on the jumbotron for visual effect */
+	  .jumbotron {
+	    border-bottom: 0;
+	    width: 80%;
+	    margin:0 auto;
+	  }
+ }
+ @media (max-width:320px){
+ 	.operation-box{
+		width: 100%;
+		margin:0 auto;
+	}
+	.fix-width-form{
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+ }
+  @media (max-width:767px){
+  	.logo-img{
+		width: 100%
+	}
+	
+	.design-triangle.xtra-small{
+		/*border-left: 30px solid transparent;
+	    border-right: 30px solid transparent;*/
+	    bottom: 15px;
+	}
+	form.fix-width-form label{
+		color: rgba(51, 51, 51, 1);
+		font-family: Hilti Small Roman;
+		font-size: 14px;
+		font-weight: normal;
+		display: inline;
+	}
+  }

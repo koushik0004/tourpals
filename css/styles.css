@@ -1,0 +1,133 @@
+@font-face {
+     font-family: 'FontAwesome';
+     src: url('font-awesome-4.4.0/fonts/fontawesome-webfont.eot?v=3.2.1');
+     src: url('font-awesome-4.4.0/fonts/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url('../Font/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('../Font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('../Font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+ }
+body {
+  background-color: rgb(223,0,27);
+  color: rgb(255, 255, 255);
+}
+html, body, .container {
+    height: 100%;
+    font-family: 'FontAwesome';
+}
+.container {
+    display: table;
+    vertical-align: middle;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 14px;
+    word-spacing: 4px;
+}
+input[type="email"], input[type="password"],
+input[type="email"]:focus, input[type="password"]:focus{
+	
+}
+/*
+.custom-form-element::-webkit-input-placeholder,
+.custom-form-element:-moz-placeholder,  .custom-form-element::-moz-placeholder,
+.custom-form-element:-ms-input-placeholder,
+.custom-form-element::-o-input-placeholder{
+   color: #FFF;
+}*/
+.custom-form-element::-webkit-input-placeholder {
+   color: #FFF;
+   font-size: 16px;
+    word-spacing: 4px;
+}
+
+.custom-form-element:-moz-placeholder { /* Firefox 18- */
+   color: #FFF;
+   font-size: 16px;
+    word-spacing: 4px; 
+}
+
+.custom-form-element::-moz-placeholder {  /* Firefox 19+ */
+   color: #FFF;
+   font-size: 16px;
+    word-spacing: 4px;
+}
+
+.custom-form-element:-ms-input-placeholder {  
+   color: #FFF;
+   font-size: 16px;
+    word-spacing: 4px;
+}
+.custom-form-element, .custom-form-element:focus{
+	outline: 0;
+	outline-color: rgb(223,0,27);
+	border: 0;
+	background: transparent;
+	border-bottom: 2px solid #ffffff;
+	box-shadow: none;
+	margin: 10px 0 20px 0;
+	position: relative;
+	font-family: 'FontAwesome';
+	color: #FFF;
+	padding: 0  0 0 40px;
+}
+.icon-customize{
+	position: absolute;
+}
+.lock-icon-customize{
+	left: 5px;
+}
+.btn-customize, .btn-customize:hover{
+	background-color: rgb(213,213,213);
+	color: rgb(223,0,27);
+	border-color: rgb(213,213,213);
+}
+.btn-customize:hover{
+	background-color: rgba(213,213,213, 0.95);
+	border-color: rgb(213,213,213);
+    
+}
+.btn-register-lg, .btn-register-lg:hover{
+	background: transparent;
+	color: rgb(213,213,213);
+	border: 1px solid rgb(213,213,213);
+}
+.btn-register-lg:hover{
+	/*background-color: rgb(169,3,41);
+	background-color: rgb(223, 40, 60);*/
+	background-color: rgba(213,213,213, 0.05);
+}
+.hr-custom{
+	border: 0;
+	display: block;
+	height: 5px;
+	margin: 20px 0;
+}
+.hilti-link{
+	color: rgb(213,213,213);
+}
+.hilti-link a, .hilti-link a:hover{
+	color: rgb(213,213,213);
+	text-decoration: underline;
+}
+.hilti-link a:hover{
+	text-decoration: none;
+}
+footer{
+	border-top: 2px solid rgb(213,213,213);
+}
+footer p{
+	margin: 5px 0 10px 0;
+}
+/*
+.email-label:before{
+	content: "Email";
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index: 99;
+	border: 5px solid blue;
+}
+*/
+/*
+ http://fortawesome.github.io/Font-Awesome/3.2.1/cheatsheet/
+ * */

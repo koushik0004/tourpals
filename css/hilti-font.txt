@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Hilti Headline";
+    src: url("fonts/HiltiSmallHeavyExtended.eot?#iefix") format("embedded-opentype"), url("fonts/HiltiSmallHeavyExtended.woff") format("woff"), url("fonts/HiltiSmallHeavyExtended.ttf") format("truetype"), url("fonts/HiltiSmall-HeavyExtended.svg#Hilti-HeavyExtended") format("svg");
+}
+@font-face {
+    font-family: "Hilti Roman";
+    font-weight: 400;
+    src: url("fonts/HiltiSmallRoman.eot?#iefix") format("embedded-opentype"), url("fonts/HiltiSmallRoman.woff") format("woff"), url("fonts/HiltiSmallRoman.ttf") format("truetype"), url("fonts/HiltiSmall-Roman.svg#Hilti-Roman") format("svg");
+}
+@font-face {
+    font-family: "Hilti Roman";
+    font-weight: 700;
+    src: url("fonts/HiltiSmallBold.eot?#iefix") format("embedded-opentype"), url("fonts/HiltiSmallBold.woff") format("woff"), url("fonts/HiltiSmallBold.ttf") format("truetype"), url("fonts/HiltiSmall-Bold.svg#Hilti-Bold") format("svg");
+}
+@font-face {
+    font-family: "Hilti Ext";
+    src: url("fonts/HiltiSmallExtended.eot?#iefix") format("embedded-opentype"), url("fonts/HiltiSmallExtended.woff") format("woff"), url("fonts/HiltiSmallExtended.ttf") format("truetype"), url("fonts/HiltiSmall-Extended.svg#Hilti-Extended") format("svg");
+}
